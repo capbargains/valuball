@@ -1,0 +1,14 @@
+{
+  "buildCommand": "next build",
+  "devCommand": "next dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "env": [
+    {
+      "key": "ODDS_API_KEY",
+      "description": "Your API key from https://the-odds-api.com/",
+      "value": "",
+      "type": "secret"
+    }
+  ]
+}
